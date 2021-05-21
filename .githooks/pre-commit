@@ -1,0 +1,6 @@
+#!/bin/sh
+echo >&2 '(git pre-commit hook) Running black...'
+python -m black .
+echo >&2 '(git pre-commit hook) Running mdformat...'
+python -m mdformat .
+echo >&2 '(git pre-commit hook) Done!'

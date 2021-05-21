@@ -1,0 +1,7 @@
+/*.egg-info
+/*.lock
+/.mypy_cache
+/.pdm.toml
+/.pytest_cache
+/.vscode
+/__pypackages__

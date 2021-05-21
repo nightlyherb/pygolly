@@ -1,0 +1,26 @@
+[project]
+name = "pygolly"
+version = "0.0.1"
+description = ""
+authors = [
+    { name = "NightlyHerb", email = "82109216+NightlyHerb@users.noreply.github.com" },
+]
+dependencies = ["dataclasses~=0.6"]
+requires-python = ">=3.6"
+dynamic = ["classifiers"]
+license = { text = "MIT" }
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.dev-dependencies]
+dev = ["mdformat~=0.5", "black~=20.8b1", "pytest~=6.2"]
+
+[tool.black]
+exclude = '''
+^/golly/
+'''
