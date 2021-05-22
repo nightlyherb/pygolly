@@ -60,11 +60,11 @@ The formatters/tests are executed on pre-commit via git hooks.
   - TBH I don't like the 3-space hanging indents of ordered lists,
     but I can see it's the best we have now and I can take it.
 
-- [![Code style: Semantic linefeeds](https://img.shields.io/badge/code_style-semantic_linefeeds-default)][link-semantic-linefeeds]
+- [![Code style: Semantic linefeeds](https://img.shields.io/badge/code_style-semantic_linefeeds-default)][link-sem-lf]
 
   - In order to minimize diff size, markdown prose is broken down into lines via
-    [semantic linefeeds][link-semantic-linefeeds].
+    [semantic linefeeds][link-sem-lf].
   - I did merge multiple phrases into one line
     iff the sentences are related and there is line estate.
 
-[link-semantic-linefeeds]: https://rhodesmill.org/brandon/2012/one-sentence-per-line/
+[link-sem-lf]: https://rhodesmill.org/brandon/2012/one-sentence-per-line/
