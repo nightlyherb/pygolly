@@ -1,0 +1,16 @@
+{
+  // Set environment variables for user-specific paths.
+  // PYGOLLY_PYTHON_INCLUDE:
+  //    Set this to where your Python headers are at.
+  "configurations": [
+    {
+      "name": "Default C/C++ config",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:PYGOLLY_PYTHON_INCLUDE}/**",
+        "${env:ILU}/**",
+      ]
+    }
+  ],
+  "version": 4
+}

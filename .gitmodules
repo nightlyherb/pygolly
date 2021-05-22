@@ -1,0 +1,3 @@
+[submodule "golly"]
+	path = golly
+	url = https://git.code.sf.net/p/golly/code

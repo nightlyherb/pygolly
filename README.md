@@ -31,15 +31,19 @@ Scripting
    pdm update
    ```
 
-1. Done!
+1. For `vscode` users:
+   Set your Python include path
+   to the environment variable `PYGOLLY_PYTHON_INCLUDE`
+   in order to find `<Python.h>`.
 
 ## Structure
 
 - `/golly` submodule: Has the upstream Golly code
+- `/pygolly-cpp`: The C++ glue code
 - `/pygolly`: The Python glue code
 - `/tests`: tests
 
-## Code style
+## Tools used
 
 The formatters/tests are executed on pre-commit via git hooks.
 
