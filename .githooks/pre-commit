@@ -1,6 +1,7 @@
 #!/bin/sh
-echo >&2 '(git pre-commit hook) Running black...'
-python -m black .
-echo >&2 '(git pre-commit hook) Running mdformat...'
-python -m mdformat .
-echo >&2 '(git pre-commit hook) Done!'
+
+set -eux
+
+python -m black --check .
+python -m mdformat --check .
+python -m toml-sort --check .
