@@ -6,9 +6,9 @@
     {
       "name": "Default C/C++ config",
       "includePath": [
-        "${workspaceFolder}/**",
-        "${env:PYGOLLY_PYTHON_INCLUDE}/**",
-        "${env:ILU}/**",
+        "${workspaceFolder}/golly/**",
+        "${workspaceFolder}/__pypackages__/**",
+        "${env:PYGOLLY_PYTHON_INCLUDE}/**"
       ]
     }
   ],
