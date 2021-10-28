@@ -51,8 +51,7 @@ The formatters/tests are executed on pre-commit via git hooks.
 
 - [![Code style: black](https://img.shields.io/badge/code_style-black-black)](https://github.com/psf/black)
 - [![Tests: pytest](https://img.shields.io/badge/tests-pytest-blue)](https://pytest.org)
-- [![Package manager: pdm](https://img.shields.io/badge/package_manager-pdm-blueviolet)](https://pdm.fming.dev/)
-
+- [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 ### Markdown
 
 - [![Code style: mdformat](https://img.shields.io/badge/code_style-mdformat-0000ff)](https://github.com/executablebooks/mdformat)
