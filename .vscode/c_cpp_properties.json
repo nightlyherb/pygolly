@@ -6,7 +6,7 @@
     {
       "name": "Default C/C++ config",
       "includePath": [
-        "${workspaceFolder}/golly/**",
+        "${workspaceFolder}/extern/golly/**",
         "${workspaceFolder}/__pypackages__/**",
         "${env:PYGOLLY_PYTHON_INCLUDE}/**"
       ]
