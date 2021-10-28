@@ -38,10 +38,10 @@ Scripting
 
 ## Structure
 
-- `/golly` submodule: Has the upstream Golly code
-- `/pygolly-cpp`: The C++ glue code
-- `/pygolly`: The Python glue code
-- `/tests`: tests
+- `/extern/golly` submodule: Has the upstream Golly code
+- `/src/pygolly-cpp`: The C++ glue code
+- `/src/pygolly`: The Python glue code
+- `/test`: tests
 
 ## Tools used
 
